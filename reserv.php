@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Reservation</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	 
+</head>
+<body>
+  <nav>
+    <ul class="nav-flex-row">
+      <li class="nav-item">
+        <a href="index.html"><i class="material-icons">restaurant_menu</i></a>
+      </li>
+      <li class="nav-item">
+        <a href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="reserv.html">Reservation</a>
+      </li>
+      <li class="nav-item">
+        <a href="menu.html">Menu</a>
+      </li>
+    </ul>
+  </nav>
+<!--
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+          alt="First slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Light mask</h3>
+        <p>First text</p>
+      </div>
+    </div>
+
+
+  </div>
+  
+    </div>
+-->
+  <br><br><br><br><div class="container">
+    <div class="row-flex">
+      <div class="flex-column-form">
+        <h3 align="center">
+          Book a Table
+        </h3>
+        <hr class='break'>
+        
+        </div>
+      <form class="media-centered" id="booking_form"  method="post" action="connection.php"> 
+          <div class="form-group">
+            <p align="center">
+            We look forward to welcoming you to our restaurants.
+			Your well being is important to us, please note we have introduced new measures into our restaurants, including social distancing, enhanced cleaning and hand sanitiser stations. If you or any of your party are feeling unwell, especially if you have a high temperature, a new persistent cough or a loss of taste or smell, please contact us to cancel your booking. 
+            </p>
+            
+            <input type="text" name="name" class="form-control" id="guest_name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <input type="number" name="number" class="form-control" id="phonenumber" placeholder="Enter your phone number" required>
+          </div>
+          <div class="form-group">
+            <input type="number" name="guests" class="form-control" id="guest" placeholder="Number of guests" min="1" max="15" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="mail" class="form-control" id="mail" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <input type="time" name="time" class="form-control" id="time" placeholder="Choose a time" min="10:00" max="22:00" required>
+            <small>Open from 10am to 10pm</small>
+          </div>
+          <div class="form-group">
+            <textarea id='mgs' class="form-control" form="booking_form" placeholder="Special requirements" rows="3" name="requirements"></textarea>
+            <small>Additional charges may apply</small>
+          </div>
+          <button type="submit" name="submit" class="btn btn-primary">Book</button>
+      </form>
+      </div>
+</div>
+<br><br><footer>
+  <div class="container text-center text-md-left">
+    <div class="row">
+      <div class="col-md-2">
+        <h5>Details</h5>
+        <p>B206-07<br>
+        Hussain Valley<br>
+      	Ujjain<br></p>
+      </div>
+      <div class="col-md-2">
+        <h5>Contact</h5>
+        <p>+123456<br>
+        +467595<br>
+      	+7899981<br></p>
+      </div>
+  <hr>
+      </div>
+    </div>
+</footer>
+    
+</body>
+</html>
+
