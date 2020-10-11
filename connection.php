@@ -25,5 +25,5 @@ if(isset($_POST['submit']))
    
 }
 if($result){
-    header('reserv.php');
+    header('location:index.html');
 }

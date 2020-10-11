@@ -12,18 +12,14 @@ if(isset($_POST['submit']))
 {
     $name = $_POST['name'];
     $number = $_POST['number'];
-    $guest = $_POST['guests'];
     $email = $_POST['mail'];
-    $time = $_POST['time'];
-    $req = $_POST['requirements'];
+    $feedback = $_POST['feedback'];
     
-
-    $query = "INSERT into reservation(name, number, guests, mail, time, requirements) values('$name', '$number', '$guest', '$email', '$time', '$req')";
+    $query = "INSERT into feedback(name, number,  mail, feedback) values('$name', '$number', '$email', '$feedback')";
     
     $result = mysqli_query($conn, $query);
     
-   
 }
 if($result){
-    header('reserv.php');
+    header('location:index.html');
 }
