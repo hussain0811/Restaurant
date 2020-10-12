@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
 
 
-
 .nav-flex-row {
     display: flex;
     flex-direction: row;
@@ -28,8 +27,8 @@
 }
 
 .section-intro {
-    height: 820px;
-    background-image: url(img/petr-sevcovic-qE1jxYXiwOA-unsplash.jpg);
+    height: 500px;
+    background-image: url('img/Go_Romana_banner_PEX_1920x576.png');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -38,10 +37,10 @@
 }
 
 .section-intro h1 {
-    text-align: center;
-    color: #ffffff;
+    text-align: right;
+    color: black;
     font-size: 4em;
-    font-weight: 700;
+    font-weight: 350;
 }
 
 .section-intro header {
@@ -60,13 +59,12 @@
     display: flex;
     align-items: center;
     background-color: #f3f3f3c0;
-    padding: 50px 30px;
 }
 
 .link-to-book {
-    color: #ffffff;
+    color: black;
     display: block;
-    border: 2px solid #ffffff;
+    border: 2px solid black;
     padding: 5px 10px;
 }
 
@@ -78,17 +76,13 @@ a.link-to-book:hover {
 
 .about-section p,
 .about-section h3 {
-    text-align: center;
-    width: 60%;
+    text-align: left;
+    width: 50%;
     margin: auto;
-    font-family: 'Big Shoulders Text', cursive;
-    font-size: 1.8em;
+    font-size: 1.7em;
     text-transform: uppercase;
 }
 
-.carousel-inner {
-    height: 700px;
-}
 
 .row-flex {
     display: flex;
@@ -206,4 +200,42 @@ hr.break {
   {
     top: 46%;
   }
+}
+header[role="banner"] {
+  #logo-main {
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+.wrapper {
+  position: relative;
+  width: 640px;
+  margin: 50px auto;
+}
+img {
+  width: 250px;
+  height: 250px
+}
+.col-sm h3,h6 {
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+
+}
+.col-sm-3 h3,h6{
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+}
+span {
+  margin: 0.5px;
+    background-color: #DCDCDC;
+}
+a img{
+  width: 80px;
+  height: 80px
+}
+section img{
+  width:400px;
+  height:400px;
+
 }
