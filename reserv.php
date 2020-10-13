@@ -7,21 +7,8 @@
 	<link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
-<style>
-footer{
-text-align: left;
-padding: 3px;
-background-color: #2b2b2b;
-color: white;
-}
-footer h6{
-	text-align: left;
-}
-footer a{
-	color: white;
-}
-</style>
 <body>
 	<div>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -84,28 +71,25 @@ footer a{
       </form>
       </div>
 </div>
-<br><br><br><div>
-  <footer>
-    <div class="container">
-            <div class="row">
-              <div class="col-sm"><br>
-                <h6>About us</h6>
-                <a href="about.html">Our Heritage</a>
-              </div>
-              <div class="col-sm"><br>
-                <h6>Quick Links</h6>
-                  <a href="reserv.php">Reservations</a><br>
-                  <a href="menu.html">Menu</a><br>
-                  <a href="feedback.html">Feedback</a><br>
-                  <a href="https://www.dominos.co.in/privacy-policy">Privacy Policy</a>
-              </div>
-              <div class='col-sm-1'>
-              <a href="index.html" class="foot-logo"><img src="img\95c74b812c06968656e454de1505c1b4.png"></a>
-            </div>
-            </div>
-            <hr>
-          </div>
- </footer>
-</div>
+<br><br><footer>
+  <div class="container text-center text-md-left">
+    <div class="row">
+      <div class="col-md-2">
+        <h5>Details</h5>
+        <p>B206-07<br>
+        Hussain Valley<br>
+      	Ujjain<br></p>
+      </div>
+      <div class="col-md-2">
+        <h5>Contact</h5>
+        <p>+123456<br>
+        +467595<br>
+      	+7899981<br></p>
+      </div>
+  <hr>
+      </div>
+    </div>
+</footer>
+
 </body>
 </html>

@@ -76,15 +76,13 @@ a.link-to-book:hover {
 
 .about-section p,
 .about-section h3 {
+    text-align: left;
     width: 50%;
     margin: auto;
     font-size: 1.7em;
     text-transform: uppercase;
 }
-.about_section h1{
-  text-align: center;
-  width: 50%;
-}
+
 
 .row-flex {
     display: flex;
@@ -241,6 +239,7 @@ section img{
   height:400px;
 
 }
+<<<<<<< HEAD
 footer img{
   width:200px;
   height:200px;
@@ -262,3 +261,5 @@ footer img{
 article h1,h5{
   text-align: center;
 }
+=======
+>>>>>>> parent of 725f7e5... changes
