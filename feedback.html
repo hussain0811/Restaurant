@@ -9,6 +9,20 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
+<style>
+footer{
+text-align: left;
+padding: 3px;
+background-color: #2b2b2b;
+color: white;
+}
+footer h6{
+	text-align: left;
+}
+footer a{
+	color: white;
+}
+</style>
 <body>
 	<div>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -31,22 +45,24 @@
 		  </div>
 		</nav>
 	</div>
-  <br><br><br><br><div class="container">
+  <br><br><div class="container">
     <div class="row-flex">
       <div class="flex-column-form">
         <h3 align="center">
+<<<<<<< HEAD
           FeedBack
+=======
+          Feedback
+>>>>>>> 2769aec2142b5dc5861c3a8c440d1429d2f2ddcc
         </h3>
         <hr class='break'>
-
         </div>
+			</div>
       <form class="media-centered" id="feed_back_form"  method="post" action="connection2.php">
           <div class="form-group">
             <p align="center">
             We look forward to welcoming you to our restaurants.
-			Your well being is important to us, please note we have introduced new measures into our restaurants, including social distancing, enhanced cleaning and hand sanitiser stations. If you or any of your party are feeling unwell, especially if you have a high temperature, a new persistent cough or a loss of taste or smell, please contact us to cancel your booking.
-            </p>
-
+						Provide us with your valuable feedback so we can serve you better.</p><br>
             <input type="text" name="name" class="form-control" id="guest_name" placeholder="Enter your name" required>
           </div>
           <div class="form-group">
@@ -62,25 +78,29 @@
       </form>
       </div>
 </div>
-<br><br><footer>
-  <div class="container text-center text-md-left">
-    <div class="row">
-      <div class="col-md-2">
-        <h5>Details</h5>
-        <p>B206-07<br>
-        Hussain Valley<br>
-      	Ujjain<br></p>
-      </div>
-      <div class="col-md-2">
-        <h5>Contact</h5>
-        <p>+123456<br>
-        +467595<br>
-      	+7899981<br></p>
-      </div>
-  <hr>
-      </div>
-    </div>
-</footer>
+<br><br><br><div>
+  <footer>
+    <div class="container">
+            <div class="row">
+              <div class="col-sm"><br>
+                <h6>About us</h6>
+                <a href="about.html">Our Heritage</a>
+              </div>
+              <div class="col-sm"><br>
+                <h6>Quick Links</h6>
+                  <a href="reserv.php">Reservations</a><br>
+                  <a href="menu.html">Menu</a><br>
+                  <a href="feedback.html">Feedback</a><br>
+                  <a href="https://www.dominos.co.in/privacy-policy">Privacy Policy</a>
+              </div>
+              <div class='col-sm-1'>
+              <a href="index.html" class="foot-logo"><img src="img\95c74b812c06968656e454de1505c1b4.png"></a>
+            </div>
+            </div>
+            <hr>
+          </div>
+ </footer>
+</div>
 
 </body>
 </html>

@@ -76,13 +76,15 @@ a.link-to-book:hover {
 
 .about-section p,
 .about-section h3 {
-    text-align: left;
     width: 50%;
     margin: auto;
     font-size: 1.7em;
     text-transform: uppercase;
 }
-
+.about_section h1{
+  text-align: center;
+  width: 50%;
+}
 
 .row-flex {
     display: flex;
@@ -238,4 +240,25 @@ section img{
   width:400px;
   height:400px;
 
+}
+footer img{
+  width:200px;
+  height:200px;
+  align-items: right;
+}
+.card img{
+  width:400px;
+  height:400px;
+  object-fit: cover;
+}
+.card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+article h1,h5{
+  text-align: center;
 }
